@@ -1,4 +1,4 @@
-## MeteorJS CMS-powered blog
+# MeteorJS CMS-powered blog
 
 You know the story, you've built a great MeteorJS website for your client and they want a blog that lives in a subdirectory (not a subdomain) for SEO purposes.
 
@@ -6,7 +6,7 @@ In this tutorial I’m going to show you how to build a CMS-powered blog using M
 
 [ButterCMS](https://buttercms.com) is a hosted API-based CMS and blog engine that lets you build CMS-powered apps using any programming language. You can think of Butter as being similar to WordPress except that you build your website in your language of choice and then plug-in the dynamic content using an API.If you want to try Butter for yourself, [sign in with Github](https://buttercms.com/github/oauth).
 
-### Getting Started
+## Getting Started
 
 If you're new to MeteorJS, check out their [quick start guide](https://guide.meteor.com/#quickstart) or follow the steps below.
 
@@ -25,7 +25,7 @@ meteor
 
 Open your web browser and go to `http://localhost:3000` to see the app running.
 
-### Creating the blog
+## Creating the blog
 
 First install the [ButterCMS Node.js API client](https://github.com/buttercms/buttercms-node):
 
@@ -117,7 +117,7 @@ Router.route('/blog/:slug', function() {
 
 In the code above, we create a route for the URL `/blog/:slug` which takes a post slug as a URL parameter, and then uses the slug to make an API request to [ButterCMS](https://buttercms.com) to fetch the post and render it.
 
-### SEO
+## SEO
 
 Our blog is setup, but crawlers from search engines and social networks do not execute Javascript so our blog has terrible SEO.
 
