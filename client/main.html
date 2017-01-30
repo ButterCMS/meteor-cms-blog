@@ -1,0 +1,23 @@
+<head>
+  <title>Meteor Blog</title>
+</head>
+<body>
+</body>
+
+<template name="home">
+  <a href="/blog">View blog</a>
+</template>
+
+<template name="blog">
+<h2>Blog Posts</h2>
+{{#each posts}}
+  <div>
+    <a href="/blog/{{slug}}">{{title}}</a>
+  </div>
+{{/each}}
+</template>
+
+<template name="post">
+  <h2>{{post.title}}</h2>
+  {{{post.body}}}
+</template>
