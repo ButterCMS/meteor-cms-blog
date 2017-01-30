@@ -4,7 +4,7 @@ You know the story, you've built a great MeteorJS website for your client and th
 
 In this tutorial I’m going to show you how to build a CMS-powered blog using MeteorJS and ButterCMS. The finished code for this tutorial is [available on Github](https://github.com/buttercms/meteor-cms-blog).
 
-[ButterCMS](https://buttercms.com) is a hosted API-based CMS and blog engine that lets you build CMS-powered apps using any programming language. You can think of Butter as being similar to WordPress except that you build your website in your language of choice and then plug-in the dynamic content using an API.If you want to try Butter for yourself, [sign in with Github](https://buttercms.com/github/oauth).
+[ButterCMS](https://buttercms.com) is a hosted API-based CMS and blog engine that lets you build CMS-powered apps using any programming language. You can think of Butter as being similar to WordPress except that you build your website in your language of choice and then plug-in the dynamic content using an API. If you want to try Butter for yourself, [sign in with Github](https://buttercms.com/github/oauth).
 
 ## Getting Started
 
