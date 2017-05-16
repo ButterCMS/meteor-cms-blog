@@ -167,3 +167,7 @@ meteor add mdg:seo
 ```
 
 If you don't want to use Galaxy, you can manually integrate Prerender.io. Another option is implementing server-side rendering into your app. At the time of this writing, server-side rendering isn't natively supported by Meteor, but you can check out [Meteor SSR](https://github.com/meteorhacks/meteor-ssr) or [Flow Router's](https://github.com/kadirahq/flow-router/tree/ssr) alpha release of SSR support.
+
+### Other
+
+View Meteor.JS [Full CMS](https://buttercms.com/meteor-cms/) for other examples of using ButterCMS with Meteor.JS.
